@@ -26,5 +26,3 @@ end
 get '/form' do
   erb(:index)
 end
-
-esjklgn
