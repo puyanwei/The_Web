@@ -1,9 +1,10 @@
-require 'sinatra/base'
+require 'sinatra'
 
 class Battle < Sinatra::Base
 
   get "/" do
-    "Hello Battle"
+    "Testing infrastructure working!"
+    erb(:index)
   end
 
 end
